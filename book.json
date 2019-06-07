@@ -1,0 +1,62 @@
+{
+    "title": "Knowledge",
+    "language": "zh-hans",
+    "plugins": [
+        "code",
+        "-search",
+        "-lunr",
+        "-share",
+        "chapter-fold",
+        "back-to-top-button",
+        "tbfed-pagefooter",
+        "search-pro",
+        "fontsettings",
+        "simple-page-toc",
+        "links",
+        "sharing-plus",
+        "ancre-navigation",
+        "klipse",
+        "pageview-count",
+        "popup"
+    ],
+    "styles": {
+        "website": "assert/style/website.css",
+        "ebook": "styles/ebook.css",
+        "pdf": "styles/pdf.css",
+        "mobi": "styles/mobi.css",
+        "epub": "styles/epub.css"
+    },
+    "pluginsConfig": {
+        "tbfed-pagefooter": {
+            "copyright": "pengqinping",
+            "modify_label": "最后更新时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        }, 
+        "fontsettings": {
+            "theme": "white",
+            "family": "serif",
+            "size": 12
+        },
+        "simple-page-toc": {
+            "maxDepth": 3,
+            "skipFirstH1": true
+        },  
+        "links": {
+            "gitbook": false
+        },
+        "sharing": {
+            "douban": false,
+            "facebook": false,
+            "google": true,
+            "pocket": false,
+            "qq": false,
+            "qzone": true,
+            "twitter": false,
+            "weibo": true,
+         "all": [
+              "douban", "facebook", "google", "instapaper", "linkedin","twitter", "weibo", 
+              "messenger","qq", "qzone","viber","whatsapp"
+          ]
+        }
+    }
+}
