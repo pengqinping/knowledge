@@ -23,9 +23,12 @@
   "devDependencies": {},
   "scripts": {
     "start": "gitbook serve",
+    "predeploy": "======= Begin deploy ======= ",
     "deploy": "gitbook build && git subtree push --prefix=_book origin coding-pages",
+    "postdeoply": "======= End deploy ======= ",
     "pdf": "gitbook pdf ./ ./knowledge.pdf",
-    "epub": "gitbook epub ./ ./knowledge.epub"
+    "epub": "gitbook epub ./ ./knowledge.epub",
+    "push": "git add . && git commit -m process.env.comment || 'auto commit log ' && git pull && git push"
   },
   "repository": {
     "type": "git",
