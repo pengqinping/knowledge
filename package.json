@@ -21,6 +21,9 @@
     "gitbook-plugin-tbfed-pagefooter": "^0.0.1"
   },
   "devDependencies": {},
+  "config": {
+    "git_comment": "auto commit log"
+  },
   "scripts": {
     "start": "gitbook serve",
     "predeploy": "======= Begin deploy ======= ",
@@ -28,7 +31,7 @@
     "postdeoply": "======= End deploy ======= ",
     "pdf": "gitbook pdf ./ ./knowledge.pdf",
     "epub": "gitbook epub ./ ./knowledge.epub",
-    "push": "git add . && git commit -m process.env.comment || 'auto commit log ' && git pull && git push"
+    "push": "git status && git add . && read -p \"please input commit info:\" commitInfo && git commit -m $commitInfo && git pull && git push"
   },
   "repository": {
     "type": "git",
