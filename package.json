@@ -26,12 +26,14 @@
   },
   "scripts": {
     "start": "gitbook serve",
-    "predeploy": "======= Begin deploy ======= ",
+    "predeploy": "echo \"======= Begin deploy =======\" ",
     "deploy": "gitbook build && git subtree push --prefix=_book origin coding-pages",
-    "postdeoply": "======= End deploy ======= ",
+    "postdeoply": "echo \"======= End deploy =======\" ",
     "pdf": "gitbook pdf ./ ./knowledge.pdf",
     "epub": "gitbook epub ./ ./knowledge.epub",
-    "push": "git status && git add . && read -p \"please input commit info:\" commitInfo && git commit -m $commitInfo && git pull && git push"
+    "prepush": "echo \"======= Begin Auto push =======\" ",
+    "push": "git status && git add . && read -p \"please input commit info:\" commitInfo && git commit -m \"$commitInfo\" && git pull && git push",
+    "postpush": "echo \"======= End Auto push =======\" "
   },
   "repository": {
     "type": "git",
