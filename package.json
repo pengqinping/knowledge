@@ -18,6 +18,7 @@
     "gitbook-plugin-sharing-plus": "^0.0.2",
     "gitbook-plugin-simple-page-toc": "^0.1.2",
     "gitbook-plugin-sitemap": "^1.2.0",
+    "gitbook-plugin-summary": "^1.0.0",
     "gitbook-plugin-tbfed-pagefooter": "^0.0.1"
   },
   "devDependencies": {},

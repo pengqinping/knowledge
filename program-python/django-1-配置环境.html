@@ -1,0 +1,592 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>django-1-配置环境 · Knowledge</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-code/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-chapter-fold/chapter-fold.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-tbfed-pagefooter/footer.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search-pro/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-links/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-ancre-navigation/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-pageview-count/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="../assert/style/website.css">
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../program-web/" />
+    
+    
+    <link rel="prev" href="Unit-6-正则表达式.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+    
+        
+        <li>
+            <a href="http://pengqinping.coding.me/ABlog/" target="_blank" class="custom-link">Home</a>
+        </li>
+    
+    
+
+    
+    <li class="divider"></li>
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Knowledge
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../dev-gitbook/">
+            
+                <a href="../dev-gitbook/">
+            
+                    
+                    GitBook
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../dev-gitbook/GitBook-环境搭建.html">
+            
+                <a href="../dev-gitbook/GitBook-环境搭建.html">
+            
+                    
+                    GitBook环境搭建及项目创建
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../dev-gitbook/GitBook-book.json.html">
+            
+                <a href="../dev-gitbook/GitBook-book.json.html">
+            
+                    
+                    GitBook之book.json配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../dev-gitbook/GitBook-命令和npm.html">
+            
+                <a href="../dev-gitbook/GitBook-命令和npm.html">
+            
+                    
+                    GitBook-命令和npm
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../dev-hexo/">
+            
+                <a href="../dev-hexo/">
+            
+                    
+                    Hexo
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../dev-hexo/hexo-环境搭建.html">
+            
+                <a href="../dev-hexo/hexo-环境搭建.html">
+            
+                    
+                    Hexo快速构建个人博客
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../program-android/">
+            
+                <a href="../program-android/">
+            
+                    
+                    Android
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Python
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="Unit-1-认识Python.html">
+            
+                <a href="Unit-1-认识Python.html">
+            
+                    
+                    Unit-1-认识Python
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="Unit-2-数据类型.html">
+            
+                <a href="Unit-2-数据类型.html">
+            
+                    
+                    Unit-2-数据类型
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="Unit-3-运算符和语句.html">
+            
+                <a href="Unit-3-运算符和语句.html">
+            
+                    
+                    Unit-3-运算符和语句
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="Unit-4-常用系统类.html">
+            
+                <a href="Unit-4-常用系统类.html">
+            
+                    
+                    Unit-4-常用系统类
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.5" data-path="Unit-5-面向对象.html">
+            
+                <a href="Unit-5-面向对象.html">
+            
+                    
+                    Unit-5-面向对象
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6" data-path="Unit-6-正则表达式.html">
+            
+                <a href="Unit-6-正则表达式.html">
+            
+                    
+                    Unit-6-正则表达式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.5.7" data-path="django-1-配置环境.html">
+            
+                <a href="django-1-配置环境.html">
+            
+                    
+                    django-1-配置环境
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../program-web/">
+            
+                <a href="../program-web/">
+            
+                    
+                    Web
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >django-1-配置环境</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-anchor"></i><ul><li><span class="title-icon "></span><a href="#&#x521B;&#x5EFA;&#x7B2C;&#x4E00;&#x4E2A;&#x9879;&#x76EE;"><b></b>&#x521B;&#x5EFA;&#x7B2C;&#x4E00;&#x4E2A;&#x9879;&#x76EE;</a></li><ul><li><span class="title-icon "></span><a href="#&#x73AF;&#x5883;&#x914D;&#x7F6E;"><b></b>&#x73AF;&#x5883;&#x914D;&#x7F6E;</a></li><li><span class="title-icon "></span><a href="#&#x7F16;&#x5199;&#x4EE3;&#x7801;"><b></b>&#x7F16;&#x5199;&#x4EE3;&#x7801;</a></li><li><span class="title-icon "></span><a href="#&#x6570;&#x636E;&#x5E93;&#x7BA1;&#x7406;&#x5DE5;&#x5177;&#x5B89;&#x88C5;"><b></b>&#x6570;&#x636E;&#x5E93;&#x7BA1;&#x7406;&#x5DE5;&#x5177;&#x5B89;&#x88C5;</a></li><li><span class="title-icon "></span><a href="#django&#x4E2D;&#x914D;&#x7F6E;&#x6570;&#x636E;&#x5E93;&#x8FDE;&#x63A5;"><b></b>django&#x4E2D;&#x914D;&#x7F6E;&#x6570;&#x636E;&#x5E93;&#x8FDE;&#x63A5;</a></li><li><span class="title-icon "></span><a href="#&#x521B;&#x5EFA;dgango-&#x6A21;&#x5757;-&#x9ED8;&#x8BA4;&#x5BFC;&#x5165;&#x7684;&#x6A21;&#x5757;&#x9700;&#x8981;&#x7684;&#x8868;"><b></b>&#x521B;&#x5EFA;Dgango &#x6A21;&#x5757; &#x9ED8;&#x8BA4;&#x5BFC;&#x5165;&#x7684;&#x6A21;&#x5757;&#x9700;&#x8981;&#x7684;&#x8868;</a></li></ul></ul></div><a href="#&#x521B;&#x5EFA;&#x7B2C;&#x4E00;&#x4E2A;&#x9879;&#x76EE;" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><!-- toc -->
+<ul>
+<li><a href="#%E5%88%9B%E5%BB%BA%E7%AC%AC%E4%B8%80%E4%B8%AA%E9%A1%B9%E7%9B%AE">&#x521B;&#x5EFA;&#x7B2C;&#x4E00;&#x4E2A;&#x9879;&#x76EE;</a><ul>
+<li><a href="#%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE">&#x73AF;&#x5883;&#x914D;&#x7F6E;</a></li>
+<li><a href="#%E7%BC%96%E5%86%99%E4%BB%A3%E7%A0%81">&#x7F16;&#x5199;&#x4EE3;&#x7801;</a></li>
+<li><a href="#%E6%95%B0%E6%8D%AE%E5%BA%93%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7%E5%AE%89%E8%A3%85">&#x6570;&#x636E;&#x5E93;&#x7BA1;&#x7406;&#x5DE5;&#x5177;&#x5B89;&#x88C5;</a></li>
+<li><a href="#django%E4%B8%AD%E9%85%8D%E7%BD%AE%E6%95%B0%E6%8D%AE%E5%BA%93%E8%BF%9E%E6%8E%A5">django&#x4E2D;&#x914D;&#x7F6E;&#x6570;&#x636E;&#x5E93;&#x8FDE;&#x63A5;</a></li>
+<li><a href="#%E5%88%9B%E5%BB%BAdgango-%E6%A8%A1%E5%9D%97-%E9%BB%98%E8%AE%A4%E5%AF%BC%E5%85%A5%E7%9A%84%E6%A8%A1%E5%9D%97%E9%9C%80%E8%A6%81%E7%9A%84%E8%A1%A8">&#x521B;&#x5EFA;Dgango &#x6A21;&#x5757; &#x9ED8;&#x8BA4;&#x5BFC;&#x5165;&#x7684;&#x6A21;&#x5757;&#x9700;&#x8981;&#x7684;&#x8868;</a></li>
+</ul>
+</li>
+</ul>
+<!-- tocstop -->
+<h1 id="&#x521B;&#x5EFA;&#x7B2C;&#x4E00;&#x4E2A;&#x9879;&#x76EE;"><a name="&#x521B;&#x5EFA;&#x7B2C;&#x4E00;&#x4E2A;&#x9879;&#x76EE;" class="anchor-navigation-ex-anchor" href="#&#x521B;&#x5EFA;&#x7B2C;&#x4E00;&#x4E2A;&#x9879;&#x76EE;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x521B;&#x5EFA;&#x7B2C;&#x4E00;&#x4E2A;&#x9879;&#x76EE;</h1>
+<h2 id="&#x73AF;&#x5883;&#x914D;&#x7F6E;"><a name="&#x73AF;&#x5883;&#x914D;&#x7F6E;" class="anchor-navigation-ex-anchor" href="#&#x73AF;&#x5883;&#x914D;&#x7F6E;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x73AF;&#x5883;&#x914D;&#x7F6E;</h2>
+<ul>
+<li>MAC + Python3 + pip3</li>
+<li>&#x547D;&#x4EE4;&#x5B89;&#x88C5;&#xFF1A;<code>pip3 install django</code></li>
+<li>&#x7248;&#x672C; <code>Python --version</code> : Python 3.1.7 , in Python shell : <code>import django django.get_version()</code>: 2.1.4</li>
+<li>&#x521B;&#x5EFA;&#x9879;&#x76EE;&#xFF1A;<code>django-admin startproject [projectName]</code></li>
+<li>&#x542F;&#x52A8;&#x670D;&#x52A1; : <code>Python manage.py runserver</code></li>
+<li>&#x547D;&#x4EE4;&#x884C;&#x8BBF;&#x95EE; <a href="http://127.0.0.1:8000" target="_blank">127.0.0.1:8000</a></li>
+</ul>
+<h2 id="&#x7F16;&#x5199;&#x4EE3;&#x7801;"><a name="&#x7F16;&#x5199;&#x4EE3;&#x7801;" class="anchor-navigation-ex-anchor" href="#&#x7F16;&#x5199;&#x4EE3;&#x7801;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x7F16;&#x5199;&#x4EE3;&#x7801;</h2>
+<ul>
+<li>&#x521B;&#x5EFA;&#x4E00;&#x4E2A;poll&#x5E94;&#x7528;&#xFF1A; <code>python manage.py startapp polls</code></li>
+<li>&#x7F16;&#x5199;&#x9875;&#x9762;</li>
+</ul>
+<pre><code class="lang-python"><span class="hljs-comment"># /polls/views.py</span>
+<span class="hljs-keyword">from</span> django.http <span class="hljs-keyword">import</span> HttpResponse
+
+<span class="hljs-comment"># Create your views here.</span>
+<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">index</span><span class="hljs-params">(request)</span>:</span>
+    <span class="hljs-keyword">return</span> HttpResponse(<span class="hljs-string">&apos;Hello this is the polls index.&apos;</span>);
+
+<span class="hljs-comment"># &#x914D;&#x7F6E;&#x5E94;&#x7528;&#x8DEF;&#x7531;</span>
+<span class="hljs-comment"># polls/urls.py</span>
+<span class="hljs-keyword">from</span> django.urls <span class="hljs-keyword">import</span> path
+<span class="hljs-keyword">from</span>  polls <span class="hljs-keyword">import</span> views
+
+urlpatterns = [
+    <span class="hljs-comment"># &#x5E26;&#x8DEF;&#x5F84;&#x53EF;&#x4EE5;&#x8BBF;&#x95EE;</span>
+    path(<span class="hljs-string">&apos;hello/&apos;</span>,views.index),
+    <span class="hljs-comment"># &#x6839;&#x76EE;&#x5F55;&#x53EF;&#x4EE5;&#x8BBF;&#x95EE;</span>
+    path(<span class="hljs-string">&apos;&apos;</span>, views.index),
+]
+
+<span class="hljs-comment"># &#x914D;&#x7F6E;&#x4E3B;&#x9879;&#x76EE;&#x8DEF;&#x7531; &#x4F7F;&#x7528;&#x89C4;&#x5219;&#x53D8;&#x5316;&#x4E86;</span>
+<span class="hljs-comment"># /FirstDjango/urls.py</span>
+<span class="hljs-keyword">from</span> django.contrib <span class="hljs-keyword">import</span> admin
+<span class="hljs-keyword">from</span> django.urls <span class="hljs-keyword">import</span> path,include
+
+urlpatterns = [
+    path(<span class="hljs-string">&apos;polls/&apos;</span>, include(<span class="hljs-string">&apos;polls.urls&apos;</span>)),
+    path(<span class="hljs-string">&apos;admin/&apos;</span>, admin.site.urls),
+]
+</code></pre>
+<p><a href="http://localhost:8000/polls/" target="_blank">&#x6D4F;&#x89C8;&#x5668;&#x8BBF;&#x95EE;http://localhost:8000/polls/</a></p>
+<h2 id="&#x6570;&#x636E;&#x5E93;&#x7BA1;&#x7406;&#x5DE5;&#x5177;&#x5B89;&#x88C5;"><a name="&#x6570;&#x636E;&#x5E93;&#x7BA1;&#x7406;&#x5DE5;&#x5177;&#x5B89;&#x88C5;" class="anchor-navigation-ex-anchor" href="#&#x6570;&#x636E;&#x5E93;&#x7BA1;&#x7406;&#x5DE5;&#x5177;&#x5B89;&#x88C5;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x6570;&#x636E;&#x5E93;&#x7BA1;&#x7406;&#x5DE5;&#x5177;&#x5B89;&#x88C5;</h2>
+<blockquote>
+<p>&#x524D;&#x63D0;&#x662F;&#x7535;&#x8111;&#x4E0A;&#x5B89;&#x88C5;&#x4E86;<strong>mysql</strong>&#x6570;&#x636E;&#x5E93;</p>
+</blockquote>
+<ul>
+<li>&#x4F7F;&#x7528; pip3 &#x547D;&#x4EE4;&#x884C;&#x5B89;&#x88C5; pip3 install pymysql</li>
+<li>&#x5728;mysql &#x4E2D;&#x914D;&#x7F6E; &#x6D4B;&#x8BD5;&#x8D26;&#x53F7;&#x5BC6;&#x7801;&#xFF0C; python </li>
+<li>&#x521B;&#x5EFA;&#x6D4B;&#x8BD5;&#x7528;&#x7684;&#x6570;&#x636E;&#x5E93; db_python_django.db</li>
+</ul>
+<h2 id="django&#x4E2D;&#x914D;&#x7F6E;&#x6570;&#x636E;&#x5E93;&#x8FDE;&#x63A5;"><a name="django&#x4E2D;&#x914D;&#x7F6E;&#x6570;&#x636E;&#x5E93;&#x8FDE;&#x63A5;" class="anchor-navigation-ex-anchor" href="#django&#x4E2D;&#x914D;&#x7F6E;&#x6570;&#x636E;&#x5E93;&#x8FDE;&#x63A5;"><i class="fa fa-link" aria-hidden="true"></i></a>django&#x4E2D;&#x914D;&#x7F6E;&#x6570;&#x636E;&#x5E93;&#x8FDE;&#x63A5;</h2>
+<pre><code class="lang-python"><span class="hljs-comment"># FirstDjango/settings.py</span>
+<span class="hljs-comment"># &#x6CE8;&#x610F;&#x8981;&#x6539;&#x4E3A;&#x81EA;&#x5DF1;&#x7684;&#x8BBE;&#x7F6E;</span>
+<span class="hljs-keyword">import</span> pymysql 
+pymysql.install_as_MySQLdb()
+DATABASES = {
+    <span class="hljs-string">&apos;default&apos;</span>: {
+        <span class="hljs-string">&apos;ENGINE&apos;</span>: <span class="hljs-string">&apos;django.db.backends.mysql&apos;</span>,
+        <span class="hljs-string">&apos;NAME&apos;</span>: <span class="hljs-string">&apos;db_python_django&apos;</span>,
+        <span class="hljs-string">&apos;host&apos;</span>: <span class="hljs-string">&apos;127.0.0.1&apos;</span>,
+        <span class="hljs-string">&apos;USER&apos;</span>: <span class="hljs-string">&apos;python&apos;</span>,
+        <span class="hljs-string">&apos;PASSWORD&apos;</span>:<span class="hljs-string">&apos;python&apos;</span>,
+        <span class="hljs-string">&apos;PORT&apos;</span>: <span class="hljs-string">&apos;3306&apos;</span>,
+    }
+}
+</code></pre>
+<h2 id="&#x521B;&#x5EFA;dgango-&#x6A21;&#x5757;-&#x9ED8;&#x8BA4;&#x5BFC;&#x5165;&#x7684;&#x6A21;&#x5757;&#x9700;&#x8981;&#x7684;&#x8868;"><a name="&#x521B;&#x5EFA;dgango-&#x6A21;&#x5757;-&#x9ED8;&#x8BA4;&#x5BFC;&#x5165;&#x7684;&#x6A21;&#x5757;&#x9700;&#x8981;&#x7684;&#x8868;" class="anchor-navigation-ex-anchor" href="#&#x521B;&#x5EFA;dgango-&#x6A21;&#x5757;-&#x9ED8;&#x8BA4;&#x5BFC;&#x5165;&#x7684;&#x6A21;&#x5757;&#x9700;&#x8981;&#x7684;&#x8868;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x521B;&#x5EFA;Dgango &#x6A21;&#x5757; &#x9ED8;&#x8BA4;&#x5BFC;&#x5165;&#x7684;&#x6A21;&#x5757;&#x9700;&#x8981;&#x7684;&#x8868;</h2>
+<p><code>python manage.py migrate</code></p>
+<!-- endtoc --> 
+<footer class="page-footer"><span class="copyright">pengqinping all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">&#x6700;&#x540E;&#x66F4;&#x65B0;&#x65F6;&#x95F4;&#xFF1A;
+2019-06-08 07:55:57
+</span></footer> <link rel="stylesheet" type="text/css" href="https://storage.googleapis.com/app.klipse.tech/css/codemirror.css"> <script>     window.klipse_settings = {         selector: ".language-klipse, .lang-eval-clojure",         selector_eval_js: ".lang-eval-js",         selector_eval_python_client: ".lang-eval-python",         selector_eval_php: ".lang-eval-php",         selector_eval_scheme: ".lang-eval-scheme",         selector_eval_ruby: ".lang-eval-ruby",         selector_reagent: ".lang-reagent",        selector_google_charts: ".lang-google-chart",        selector_es2017: ".lang-eval-es2017",        selector_jsx: ".lang-eval-jsx",        selector_transpile_jsx: ".lang-transpile-jsx",        selector_render_jsx: ".lang-render-jsx",        selector_react: ".lang-react",        selector_eval_markdown: ".lang-render-markdown",        selector_eval_lambdaway: ".lang-render-lambdaway",        selector_eval_cpp: ".lang-eval-cpp",        selector_eval_html: ".lang-render-html",        selector_sql: ".lang-eval-sql",        selector_brainfuck: "lang-eval-brainfuck",        selector_js: ".lang-transpile-cljs"    }; </script> <script src="https://storage.googleapis.com/app.klipse.tech/plugin/js/klipse_plugin.js"></script>
+<script>console.log("plugin-popup....");document.onclick = function(e){ e.target.tagName === "IMG" && window.open(e.target.src,e.target.src)}</script><style>img{cursor:pointer}</style>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="Unit-6-正则表达式.html" class="navigation navigation-prev " aria-label="Previous page: Unit-6-正则表达式">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../program-web/" class="navigation navigation-next " aria-label="Next page: Web">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"django-1-配置环境","level":"1.5.7","depth":2,"next":{"title":"Web","level":"1.6","depth":1,"path":"program-web/README.md","ref":"program-web/README.md","articles":[]},"previous":{"title":"Unit-6-正则表达式","level":"1.5.6","depth":2,"path":"program-python/Unit-6-正则表达式.md","ref":"program-python/Unit-6-正则表达式.md","articles":[]},"dir":"ltr"},"config":{"plugins":["code","-search","-lunr","-share","chapter-fold","tbfed-pagefooter","search-pro","fontsettings","simple-page-toc","links","sharing-plus","ancre-navigation","klipse","pageview-count","popup","livereload"],"styles":{"website":"assert/style/website.css","ebook":"assert/style/ebook.css","pdf":"assert/style/pdf.css","mobi":"assert/style/mobi.css","epub":"assert/style/epub.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"pengqinping","modify_label":"最后更新时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"chapter-fold":{},"livereload":{},"simple-page-toc":{"maxDepth":3,"skipFirstH1":true},"search-pro":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"popup":{},"code":{"copyButtons":true},"fontsettings":{"family":"serif","size":12,"theme":"white"},"highlight":{},"pageview-count":{},"ancre-navigation":{"showLevel":true,"associatedWithSummary":true,"mode":"float","printLog":false,"multipleH1":true,"float":{"showLevelIcon":false,"level1Icon":"","level2Icon":"","level3Icon":""},"pageTop":{"showLevelIcon":false,"level1Icon":"","level2Icon":"","level3Icon":""}},"links":{},"klipse":{"myConfigKey":"it's the default value"},"sharing":{"qq":true,"all":["douban","weibo","qzone","weibo","instapaper"],"douban":true,"facebook":false,"weibo":true,"instapaper":false,"twitter":false,"vk":false,"pocket":false,"google":false,"qzone":true},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Knowledge","language":"zh-hans","links":{"gitbook":false,"sidebar":{"Home":"http://pengqinping.coding.me/ABlog/"}},"gitbook":"*"},"file":{"path":"program-python/django-1-配置环境.md","mtime":"2019-06-07T23:55:57.823Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-06-07T09:07:15.968Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-code/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-chapter-fold/chapter-fold.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-pro/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-links/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing-plus/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-pageview-count/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+
+    </body>
+</html>
+
