@@ -1,0 +1,763 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>UI-Android项目中的全屏 · Knowledge</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-code/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-chapter-fold/chapter-fold.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-tbfed-pagefooter/footer.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search-pro/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-links/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-ancre-navigation/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-pageview-count/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="../assert/style/website.css">
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../program-python/" />
+    
+    
+    <link rel="prev" href="Gradle-common.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+    
+        
+        <li>
+            <a href="http://pengqinping.coding.me/ABlog/" target="_blank" class="custom-link">Home</a>
+        </li>
+    
+    
+
+    
+    <li class="divider"></li>
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Knowledge
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../dev-gitbook/">
+            
+                <a href="../dev-gitbook/">
+            
+                    
+                    GitBook
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../dev-gitbook/GitBook-环境搭建.html">
+            
+                <a href="../dev-gitbook/GitBook-环境搭建.html">
+            
+                    
+                    GitBook环境搭建及项目创建
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../dev-gitbook/GitBook-book.json.html">
+            
+                <a href="../dev-gitbook/GitBook-book.json.html">
+            
+                    
+                    GitBook之book.json配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../dev-gitbook/GitBook-命令和npm.html">
+            
+                <a href="../dev-gitbook/GitBook-命令和npm.html">
+            
+                    
+                    GitBook-命令和npm
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../dev-hexo/">
+            
+                <a href="../dev-hexo/">
+            
+                    
+                    Hexo
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../dev-hexo/hexo-环境搭建.html">
+            
+                <a href="../dev-hexo/hexo-环境搭建.html">
+            
+                    
+                    Hexo快速构建个人博客
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Android
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="Gradle-common.html">
+            
+                <a href="Gradle-common.html">
+            
+                    
+                    Gradle全局配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.4.2" data-path="UI-FullScreen.html">
+            
+                <a href="UI-FullScreen.html">
+            
+                    
+                    UI-Android项目中的全屏
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../program-python/">
+            
+                <a href="../program-python/">
+            
+                    
+                    Python
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../program-python/Unit-1-认识Python.html">
+            
+                <a href="../program-python/Unit-1-认识Python.html">
+            
+                    
+                    Unit-1-认识Python
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../program-python/Unit-2-数据类型.html">
+            
+                <a href="../program-python/Unit-2-数据类型.html">
+            
+                    
+                    Unit-2-数据类型
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="../program-python/Unit-3-运算符和语句.html">
+            
+                <a href="../program-python/Unit-3-运算符和语句.html">
+            
+                    
+                    Unit-3-运算符和语句
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="../program-python/Unit-4-常用系统类.html">
+            
+                <a href="../program-python/Unit-4-常用系统类.html">
+            
+                    
+                    Unit-4-常用系统类
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.5" data-path="../program-python/Unit-5-面向对象.html">
+            
+                <a href="../program-python/Unit-5-面向对象.html">
+            
+                    
+                    Unit-5-面向对象
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6" data-path="../program-python/Unit-6-正则表达式.html">
+            
+                <a href="../program-python/Unit-6-正则表达式.html">
+            
+                    
+                    Unit-6-正则表达式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.7" data-path="../program-python/django-1-配置环境.html">
+            
+                <a href="../program-python/django-1-配置环境.html">
+            
+                    
+                    django-1-配置环境
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../program-web/">
+            
+                <a href="../program-web/">
+            
+                    
+                    Web
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../tools/">
+            
+                <a href="../tools/">
+            
+                    
+                    Tools
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../tools/jetbrains-register.html">
+            
+                <a href="../tools/jetbrains-register.html">
+            
+                    
+                    Jetbrains破解合集
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="../tools/theme-dracula.html">
+            
+                <a href="../tools/theme-dracula.html">
+            
+                    
+                    Dracula样式合集
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >UI-Android项目中的全屏</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-anchor"></i><ul><li><span class="title-icon "></span><a href="#android-&#x4E2D;&#x7684;&#x5168;&#x5C4F;"><b></b>Android &#x4E2D;&#x7684;&#x5168;&#x5C4F;</a></li><ul><li><span class="title-icon "></span><a href="#&#x5168;&#x5C4F;&#x6548;&#x679C;"><b></b>&#x5168;&#x5C4F;&#x6548;&#x679C;</a></li><li><span class="title-icon "></span><a href="#&#x8BBE;&#x7F6E;&#x65B9;&#x6CD5;"><b></b>&#x8BBE;&#x7F6E;&#x65B9;&#x6CD5;</a></li><ul><li><span class="title-icon "></span><a href="#theme-style"><b></b>Theme Style</a></li><li><span class="title-icon "></span><a href="#window-flags"><b></b>Window Flags</a></li></ul><li><span class="title-icon "></span><a href="#decorview-systemuivisibility"><b></b>DecorView systemUiVisibility</a></li><li><span class="title-icon "></span><a href="#window-layoutparams-flag-&#x8BF4;&#x660E;"><b></b>Window LayoutParams Flag &#x8BF4;&#x660E;</a></li><li><span class="title-icon "></span><a href="#&#x5E38;&#x89C1;&#x7684;&#x5168;&#x5C4F;&#x573A;&#x666F;"><b></b>&#x5E38;&#x89C1;&#x7684;&#x5168;&#x5C4F;&#x573A;&#x666F;</a></li><ul><li><span class="title-icon "></span><a href="#guide&#x5F15;&#x5BFC;"><b></b>Guide&#x5F15;&#x5BFC;</a></li><li><span class="title-icon "></span><a href="#&#x5168;&#x5C4F;&#x56FE;&#x7247;&#x9884;&#x89C8;"><b></b>&#x5168;&#x5C4F;&#x56FE;&#x7247;&#x9884;&#x89C8;</a></li></ul></ul></ul></div><a href="#android-&#x4E2D;&#x7684;&#x5168;&#x5C4F;" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><!-- toc -->
+<ul>
+<li><a href="#android-%E4%B8%AD%E7%9A%84%E5%85%A8%E5%B1%8F">Android &#x4E2D;&#x7684;&#x5168;&#x5C4F;</a><ul>
+<li><a href="#%E5%85%A8%E5%B1%8F%E6%95%88%E6%9E%9C">&#x5168;&#x5C4F;&#x6548;&#x679C;</a></li>
+<li><a href="#%E8%AE%BE%E7%BD%AE%E6%96%B9%E6%B3%95">&#x8BBE;&#x7F6E;&#x65B9;&#x6CD5;</a><ul>
+<li><a href="#theme-style">Theme Style</a></li>
+<li><a href="#window-flags">Window Flags</a></li>
+</ul>
+</li>
+<li><a href="#decorview-systemuivisibility">DecorView systemUiVisibility</a></li>
+<li><a href="#window-layoutparams-flag-%E8%AF%B4%E6%98%8E">Window LayoutParams Flag &#x8BF4;&#x660E;</a></li>
+<li><a href="#%E5%B8%B8%E8%A7%81%E7%9A%84%E5%85%A8%E5%B1%8F%E5%9C%BA%E6%99%AF">&#x5E38;&#x89C1;&#x7684;&#x5168;&#x5C4F;&#x573A;&#x666F;</a><ul>
+<li><a href="#guide%E5%BC%95%E5%AF%BC">Guide&#x5F15;&#x5BFC;</a></li>
+<li><a href="#%E5%85%A8%E5%B1%8F%E5%9B%BE%E7%89%87%E9%A2%84%E8%A7%88">&#x5168;&#x5C4F;&#x56FE;&#x7247;&#x9884;&#x89C8;</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<!-- tocstop -->
+<h1 id="android-&#x4E2D;&#x7684;&#x5168;&#x5C4F;"><a name="android-&#x4E2D;&#x7684;&#x5168;&#x5C4F;" class="anchor-navigation-ex-anchor" href="#android-&#x4E2D;&#x7684;&#x5168;&#x5C4F;"><i class="fa fa-link" aria-hidden="true"></i></a>Android &#x4E2D;&#x7684;&#x5168;&#x5C4F;</h1>
+<ul>
+<li>code &amp; apk : <a href="https://github.com/pengqinping/project_android_as/tree/master/UI" target="_blank">https://github.com/pengqinping/project_android_as/tree/master/UI</a> </li>
+</ul>
+<h2 id="&#x5168;&#x5C4F;&#x6548;&#x679C;"><a name="&#x5168;&#x5C4F;&#x6548;&#x679C;" class="anchor-navigation-ex-anchor" href="#&#x5168;&#x5C4F;&#x6548;&#x679C;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x5168;&#x5C4F;&#x6548;&#x679C;</h2>
+<p>&#x5168;&#x5C4F;<br>
+<img src="../assert/img/android-full/window_flag_enter_full.png" alt="&#x5168;&#x5C4F;&#x6548;&#x679C;"></p>
+<p>&#x5168;&#x5C4F;&#x6709;&#x6807;&#x9898;<br>
+<img src="../assert/img/android-full/window_flag_full_has_statusbar.png" alt="&#x5168;&#x5C4F;&#x6548;&#x679C;"></p>
+<p>&#x975E;&#x5168;&#x5C4F;<br>
+<img src="../assert/img/android-full/window_flag_full.png" alt="&#x975E;&#x5168;&#x5C4F;&#x6548;&#x679C;"></p>
+<h2 id="&#x8BBE;&#x7F6E;&#x65B9;&#x6CD5;"><a name="&#x8BBE;&#x7F6E;&#x65B9;&#x6CD5;" class="anchor-navigation-ex-anchor" href="#&#x8BBE;&#x7F6E;&#x65B9;&#x6CD5;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x8BBE;&#x7F6E;&#x65B9;&#x6CD5;</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Method</th>
+<th style="text-align:left">Code</th>
+<th style="text-align:left">Describe</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Theme &#x8BBE;&#x7F6E;&#x5168;&#x5C4F;&#x6837;&#x5F0F;</td>
+<td style="text-align:left"><a href="#Theme_Style">Theme style</a></td>
+<td style="text-align:left">&#x6CA1;&#x6709;&#x6807;&#x9898;&#x680F;&#x6548;&#x679C;</td>
+</tr>
+<tr>
+<td style="text-align:left">Window Flags</td>
+<td style="text-align:left"><a href="#Window_Flags">Window Flags</a></td>
+<td style="text-align:left">&#x53EF;&#x4EE5;&#x8BBE;&#x7F6E; FLAG_LAYOUT_NO_LIMITS &#x6765;&#x7CFB;&#x7EDF;&#x7684;&#x6807;&#x9898;&#x663E;&#x793A;</td>
+</tr>
+<tr>
+<td style="text-align:left">DecorView UIVisiblity</td>
+<td style="text-align:left"><a href="#DecorViewSystemUiVisiblity">DecorViewSystemUiVisiblity</a></td>
+<td style="text-align:left">&#x4E24;&#x79CD;&#x5168;&#x5C4F;&#x65B9;&#x5F0F;</td>
+</tr>
+</tbody>
+</table>
+<h3 id="theme-style"><a name="theme-style" class="anchor-navigation-ex-anchor" href="#theme-style"><i class="fa fa-link" aria-hidden="true"></i></a>Theme Style</h3>
+<div id="Theme_Style"></div>
+
+<pre><code class="lang-xml">  <span class="hljs-tag">&lt;<span class="hljs-name">style</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;ThemeFullScreen&quot;</span> <span class="hljs-attr">parent</span>=<span class="hljs-string">&quot;Theme.AppCompat.Light.NoActionBar&quot;</span>&gt;</span><span class="xml">
+        <span class="hljs-tag">&lt;<span class="hljs-name">item</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;android:windowFullscreen&quot;</span>&gt;</span>true<span class="hljs-tag">&lt;/<span class="hljs-name">item</span>&gt;</span>
+    </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+</code></pre>
+<h3 id="window-flags"><a name="window-flags" class="anchor-navigation-ex-anchor" href="#window-flags"><i class="fa fa-link" aria-hidden="true"></i></a>Window Flags</h3>
+<div id="Window_Flags"></div>
+
+<pre><code class="lang-java"><span class="hljs-comment">// &#x8BBE;&#x7F6E;&#x5168;&#x5C4F; &#x4EE5;&#x4E0B;&#x4E09;&#x79CD;&#x6548;&#x679C;&#x76F8;&#x540C;</span>
+window.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN)
+window.attributes.flags = window.attributes.flags or WindowManager.LayoutParams.FLAG_FULLSCREEN
+window.addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN)
+
+<span class="hljs-comment">// &#x53D6;&#x6D88;&#x5168;&#x5C4F; </span>
+window.clearFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN)
+window.attributes.flags = window.attributes.flags  and WindowManager.LayoutParams.FLAG_FULLSCREEN.inv()
+window.clearFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN)
+</code></pre>
+<h2 id="decorview-systemuivisibility"><a name="decorview-systemuivisibility" class="anchor-navigation-ex-anchor" href="#decorview-systemuivisibility"><i class="fa fa-link" aria-hidden="true"></i></a>DecorView systemUiVisibility</h2>
+<div id="DecorViewSystemUiVisiblity"></div>
+
+<pre><code class="lang-java"><span class="hljs-keyword">if</span>(isChecked) {
+    window.decorView.systemUiVisibility = window.decorView.systemUiVisibility.or(View.SYSTEM_UI_FLAG_FULLSCREEN)
+} <span class="hljs-keyword">else</span> {
+    window.decorView.systemUiVisibility = window.decorView.systemUiVisibility.and(View.SYSTEM_UI_FLAG_FULLSCREEN.inv())
+}
+</code></pre>
+<h2 id="window-layoutparams-flag-&#x8BF4;&#x660E;"><a name="window-layoutparams-flag-&#x8BF4;&#x660E;" class="anchor-navigation-ex-anchor" href="#window-layoutparams-flag-&#x8BF4;&#x660E;"><i class="fa fa-link" aria-hidden="true"></i></a>Window LayoutParams Flag &#x8BF4;&#x660E;</h2>
+<p>&#x8FD9;&#x91CC;&#x5168;&#x5C4F;&#x9700;&#x8981;&#x5173;&#x6CE8;&#x7684;&#x65F6; &#x4E24;&#x4E2A; FLAG <code>FLAG_FULLSCREEN</code> &#x548C; <code>FLAG_LAYOUT_NO_LIMITS</code></p>
+<ul>
+<li><a href="API-WindowManager.LayoutParams.md">WindowsFlag&#x7684;&#x96C6;&#x5408;</a></li>
+</ul>
+<h2 id="&#x5E38;&#x89C1;&#x7684;&#x5168;&#x5C4F;&#x573A;&#x666F;"><a name="&#x5E38;&#x89C1;&#x7684;&#x5168;&#x5C4F;&#x573A;&#x666F;" class="anchor-navigation-ex-anchor" href="#&#x5E38;&#x89C1;&#x7684;&#x5168;&#x5C4F;&#x573A;&#x666F;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x5E38;&#x89C1;&#x7684;&#x5168;&#x5C4F;&#x573A;&#x666F;</h2>
+<h3 id="guide&#x5F15;&#x5BFC;"><a name="guide&#x5F15;&#x5BFC;" class="anchor-navigation-ex-anchor" href="#guide&#x5F15;&#x5BFC;"><i class="fa fa-link" aria-hidden="true"></i></a>Guide&#x5F15;&#x5BFC;</h3>
+<blockquote>
+<p>&#x5168;&#x5C4F; &#x663E;&#x793A;StatusBar &#x548C; &#x9690;&#x85CF;NavigationBar StatusBar&#x8986;&#x76D6;&#x5728;&#x56FE;&#x7247;&#x4E0A;&#x9762;</p>
+</blockquote>
+<p>&#x6548;&#x679C;&#x56FE;&#x5982;&#x4E0B;&#xFF1A;<br>
+<img src="../assert/img/android-full/activity_guide.png" alt="Guide&#x5F15;&#x5BFC;"></p>
+<p>&#x5168;&#x90E8;&#x4EE3;&#x7801;&#xFF1A;<a href="https://github.com/pengqinping/project_android_as/blob/master/UI/fullscreen/src/main/java/com/twp/fullscreen/GuideActivity.kt" target="_blank">Clike Me</a></p>
+<pre><code class="lang-java"> <span class="hljs-function">override fun <span class="hljs-title">onCreate</span><span class="hljs-params">(savedInstanceState: Bundle?)</span> </span>{
+        <span class="hljs-keyword">super</span>.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_guide)
+        <span class="hljs-comment">// set StatusBar background transparent</span>
+        StatusBarCompat.setStatusBarColor(<span class="hljs-keyword">this</span>, Color.TRANSPARENT)
+        <span class="hljs-comment">// &#x8BBE;&#x7F6E;&#x72B6;&#x6001;&#x680F;&#x5B57;&#x4F53;&#x989C;&#x8272;&#x4E3A;&#x9ED1;&#x8272;</span>
+        StatusBarCompat.setLightStatusBar(window,<span class="hljs-keyword">true</span>)
+        <span class="hljs-comment">// set FullScreen in Layout</span>
+        setFullScreenWithStatusBar()
+        setFullScreenHideNavigation()
+    }
+
+    <span class="hljs-comment">// &#x7CFB;&#x7EDF;&#x72B6;&#x6001;&#x680F;&#x9690;&#x85CF;</span>
+    <span class="hljs-function"><span class="hljs-keyword">private</span> fun <span class="hljs-title">setFullScreenWithStatusBar</span><span class="hljs-params">()</span></span>{
+        var uiVisibility = window.decorView.systemUiVisibility
+        uiVisibility = uiVisibility.or(View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN)
+        window.decorView.systemUiVisibility = uiVisibility
+    }
+
+    <span class="hljs-comment">// &#x7CFB;&#x7EDF;&#x5BFC;&#x822A;&#x680F;&#x9690;&#x85CF;</span>
+    <span class="hljs-function"><span class="hljs-keyword">private</span> fun <span class="hljs-title">setFullScreenHideNavigation</span><span class="hljs-params">()</span></span>{
+        var uiVisibility = window.decorView.systemUiVisibility
+        uiVisibility = uiVisibility.or(View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION).or(View.SYSTEM_UI_FLAG_HIDE_NAVIGATION)
+        <span class="hljs-keyword">if</span>(Build.VERSION.SDK_INT &gt; Build.VERSION_CODES.KITKAT) {
+            uiVisibility = uiVisibility.or(View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY)
+        }
+        window.decorView.systemUiVisibility = uiVisibility
+    }
+</code></pre>
+<h3 id="&#x5168;&#x5C4F;&#x56FE;&#x7247;&#x9884;&#x89C8;"><a name="&#x5168;&#x5C4F;&#x56FE;&#x7247;&#x9884;&#x89C8;" class="anchor-navigation-ex-anchor" href="#&#x5168;&#x5C4F;&#x56FE;&#x7247;&#x9884;&#x89C8;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x5168;&#x5C4F;&#x56FE;&#x7247;&#x9884;&#x89C8;</h3>
+<blockquote>
+<p>&#x5168;&#x5C4F;&#x9884;&#x89C8; &#x72B6;&#x6001;&#x680F;&#x80FD;&#x591F;&#x52A8;&#x6001;&#x7684;&#x663E;&#x793A;&#x548C;&#x9690;&#x85CF;</p>
+</blockquote>
+<p>&#x6548;&#x679C;&#x56FE;&#x5982;&#x4E0B;&#xFF1A;<br>
+<img src="../assert/img/android-full/activity_full_preview.gif" alt="Guide&#x5F15;&#x5BFC;"></p>
+<pre><code class="lang-java"> <span class="hljs-keyword">private</span> var toBeHideSystemStatusBar = <span class="hljs-function"><span class="hljs-keyword">true</span>
+    override fun <span class="hljs-title">onCreate</span><span class="hljs-params">(savedInstanceState: Bundle?)</span> </span>{
+        <span class="hljs-keyword">super</span>.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_full_preview_image)
+        <span class="hljs-comment">// set StatusBar background transparent</span>
+        StatusBarCompat.setStatusBarColor(<span class="hljs-keyword">this</span>, Color.TRANSPARENT)
+        <span class="hljs-comment">// &#x8BBE;&#x7F6E;&#x72B6;&#x6001;&#x680F;&#x5B57;&#x4F53;&#x989C;&#x8272;&#x4E3A;&#x9ED1;&#x8272;</span>
+        StatusBarCompat.setLightStatusBar(window,<span class="hljs-keyword">false</span>)
+        <span class="hljs-comment">// set FullScreen in Layout</span>
+        setFullScreenWithStatusBar()
+        setFullScreenHideNavigation()
+
+        imgPreview.setOnClickListener {
+            toBeHideSystemStatusBar = <span class="hljs-keyword">if</span>(toBeHideSystemStatusBar){
+                topView.visibility = View.GONE
+                window.addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN)
+                <span class="hljs-keyword">false</span>
+            } <span class="hljs-keyword">else</span> {
+                topView.visibility = View.VISIBLE
+                window.clearFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN)
+                <span class="hljs-keyword">true</span>
+            }
+        }
+    }
+
+
+    <span class="hljs-comment">// &#x7CFB;&#x7EDF;&#x72B6;&#x6001;&#x680F;&#x9690;&#x85CF;</span>
+    <span class="hljs-function"><span class="hljs-keyword">private</span> fun <span class="hljs-title">setFullScreenWithStatusBar</span><span class="hljs-params">()</span></span>{
+        var uiVisibility = window.decorView.systemUiVisibility
+        uiVisibility = uiVisibility.or(View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN)
+        window.decorView.systemUiVisibility = uiVisibility
+    }
+
+    <span class="hljs-comment">// &#x7CFB;&#x7EDF;&#x5BFC;&#x822A;&#x680F;&#x9690;&#x85CF;</span>
+    <span class="hljs-function"><span class="hljs-keyword">private</span> fun <span class="hljs-title">setFullScreenHideNavigation</span><span class="hljs-params">()</span></span>{
+        var uiVisibility = window.decorView.systemUiVisibility
+        uiVisibility = uiVisibility.or(View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION).or(View.SYSTEM_UI_FLAG_HIDE_NAVIGATION)
+        <span class="hljs-keyword">if</span>(Build.VERSION.SDK_INT &gt; Build.VERSION_CODES.KITKAT) {
+            uiVisibility = uiVisibility.or(View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY)
+        }
+        window.decorView.systemUiVisibility = uiVisibility
+    }
+</code></pre>
+<!-- endtoc -->
+<footer class="page-footer"><span class="copyright">pengqinping all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">&#x6700;&#x540E;&#x66F4;&#x65B0;&#x65F6;&#x95F4;&#xFF1A;
+2019-06-11 00:14:18
+</span></footer> <link rel="stylesheet" type="text/css" href="https://storage.googleapis.com/app.klipse.tech/css/codemirror.css"> <script>     window.klipse_settings = {         selector: ".language-klipse, .lang-eval-clojure",         selector_eval_js: ".lang-eval-js",         selector_eval_python_client: ".lang-eval-python",         selector_eval_php: ".lang-eval-php",         selector_eval_scheme: ".lang-eval-scheme",         selector_eval_ruby: ".lang-eval-ruby",         selector_reagent: ".lang-reagent",        selector_google_charts: ".lang-google-chart",        selector_es2017: ".lang-eval-es2017",        selector_jsx: ".lang-eval-jsx",        selector_transpile_jsx: ".lang-transpile-jsx",        selector_render_jsx: ".lang-render-jsx",        selector_react: ".lang-react",        selector_eval_markdown: ".lang-render-markdown",        selector_eval_lambdaway: ".lang-render-lambdaway",        selector_eval_cpp: ".lang-eval-cpp",        selector_eval_html: ".lang-render-html",        selector_sql: ".lang-eval-sql",        selector_brainfuck: "lang-eval-brainfuck",        selector_js: ".lang-transpile-cljs"    }; </script> <script src="https://storage.googleapis.com/app.klipse.tech/plugin/js/klipse_plugin.js"></script>
+<script>console.log("plugin-popup....");document.onclick = function(e){ e.target.tagName === "IMG" && window.open(e.target.src,e.target.src)}</script><style>img{cursor:pointer}</style>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="Gradle-common.html" class="navigation navigation-prev " aria-label="Previous page: Gradle全局配置">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../program-python/" class="navigation navigation-next " aria-label="Next page: Python">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"UI-Android项目中的全屏","level":"1.4.2","depth":2,"next":{"title":"Python","level":"1.5","depth":1,"path":"program-python/README.md","ref":"program-python/README.md","articles":[{"title":"Unit-1-认识Python","level":"1.5.1","depth":2,"path":"program-python/Unit-1-认识Python.md","ref":"program-python/Unit-1-认识Python.md","articles":[]},{"title":"Unit-2-数据类型","level":"1.5.2","depth":2,"path":"program-python/Unit-2-数据类型.md","ref":"program-python/Unit-2-数据类型.md","articles":[]},{"title":"Unit-3-运算符和语句","level":"1.5.3","depth":2,"path":"program-python/Unit-3-运算符和语句.md","ref":"program-python/Unit-3-运算符和语句.md","articles":[]},{"title":"Unit-4-常用系统类","level":"1.5.4","depth":2,"path":"program-python/Unit-4-常用系统类.md","ref":"program-python/Unit-4-常用系统类.md","articles":[]},{"title":"Unit-5-面向对象","level":"1.5.5","depth":2,"path":"program-python/Unit-5-面向对象.md","ref":"program-python/Unit-5-面向对象.md","articles":[]},{"title":"Unit-6-正则表达式","level":"1.5.6","depth":2,"path":"program-python/Unit-6-正则表达式.md","ref":"program-python/Unit-6-正则表达式.md","articles":[]},{"title":"django-1-配置环境","level":"1.5.7","depth":2,"path":"program-python/django-1-配置环境.md","ref":"program-python/django-1-配置环境.md","articles":[]}]},"previous":{"title":"Gradle全局配置","level":"1.4.1","depth":2,"path":"program-android/Gradle-common.md","ref":"program-android/Gradle-common.md","articles":[]},"dir":"ltr"},"config":{"plugins":["code","-search","-lunr","-share","chapter-fold","tbfed-pagefooter","search-pro","fontsettings","simple-page-toc","links","sharing-plus","ancre-navigation","klipse","pageview-count","popup","livereload"],"styles":{"website":"assert/style/website.css","ebook":"assert/style/ebook.css","pdf":"assert/style/pdf.css","mobi":"assert/style/mobi.css","epub":"assert/style/epub.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"pengqinping","modify_label":"最后更新时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"chapter-fold":{},"livereload":{},"simple-page-toc":{"maxDepth":3,"skipFirstH1":true},"search-pro":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"popup":{},"code":{"copyButtons":true},"fontsettings":{"family":"serif","size":12,"theme":"white"},"highlight":{},"pageview-count":{},"ancre-navigation":{"showLevel":true,"associatedWithSummary":true,"mode":"float","printLog":false,"multipleH1":true,"float":{"showLevelIcon":false,"level1Icon":"","level2Icon":"","level3Icon":""},"pageTop":{"showLevelIcon":false,"level1Icon":"","level2Icon":"","level3Icon":""}},"links":{},"klipse":{"myConfigKey":"it's the default value"},"sharing":{"qq":true,"all":["douban","weibo","qzone","weibo","instapaper"],"douban":true,"facebook":false,"weibo":true,"instapaper":false,"twitter":false,"vk":false,"pocket":false,"google":false,"qzone":true},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Knowledge","language":"zh-hans","links":{"gitbook":false,"sidebar":{"Home":"http://pengqinping.coding.me/ABlog/"}},"gitbook":"*"},"file":{"path":"program-android/UI-FullScreen.md","mtime":"2019-06-10T16:14:18.779Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-06-10T15:26:05.654Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-code/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-chapter-fold/chapter-fold.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-pro/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-links/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing-plus/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-pageview-count/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+
+    </body>
+</html>
+
