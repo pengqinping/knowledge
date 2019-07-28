@@ -1,0 +1,804 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>UI-Android全屏中的刘海屏 · Knowledge</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-code/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-chapter-fold/chapter-fold.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-tbfed-pagefooter/footer.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search-pro/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-links/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-ancre-navigation/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-pageview-count/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="../assert/style/website.css">
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../program-python/" />
+    
+    
+    <link rel="prev" href="UI-FullScreen.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+    
+        
+        <li>
+            <a href="http://pengqinping.coding.me/ABlog/" target="_blank" class="custom-link">Home</a>
+        </li>
+    
+    
+
+    
+    <li class="divider"></li>
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Knowledge
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../dev-gitbook/">
+            
+                <a href="../dev-gitbook/">
+            
+                    
+                    GitBook
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../dev-gitbook/GitBook-环境搭建.html">
+            
+                <a href="../dev-gitbook/GitBook-环境搭建.html">
+            
+                    
+                    GitBook环境搭建及项目创建
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../dev-gitbook/GitBook-book.json.html">
+            
+                <a href="../dev-gitbook/GitBook-book.json.html">
+            
+                    
+                    GitBook之book.json配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../dev-gitbook/GitBook-命令和npm.html">
+            
+                <a href="../dev-gitbook/GitBook-命令和npm.html">
+            
+                    
+                    GitBook-命令和npm
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../dev-hexo/">
+            
+                <a href="../dev-hexo/">
+            
+                    
+                    Hexo
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../dev-hexo/hexo-环境搭建.html">
+            
+                <a href="../dev-hexo/hexo-环境搭建.html">
+            
+                    
+                    Hexo快速构建个人博客
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Android
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="Gradle-common.html">
+            
+                <a href="Gradle-common.html">
+            
+                    
+                    Gradle全局配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="UI-FullScreen.html">
+            
+                <a href="UI-FullScreen.html">
+            
+                    
+                    UI-Android项目中的全屏
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.4.3" data-path="UI-NotchScreen.html">
+            
+                <a href="UI-NotchScreen.html">
+            
+                    
+                    UI-Android全屏中的刘海屏
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../program-python/">
+            
+                <a href="../program-python/">
+            
+                    
+                    Python
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../program-python/Unit-1-认识Python.html">
+            
+                <a href="../program-python/Unit-1-认识Python.html">
+            
+                    
+                    Unit-1-认识Python
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../program-python/Unit-2-数据类型.html">
+            
+                <a href="../program-python/Unit-2-数据类型.html">
+            
+                    
+                    Unit-2-数据类型
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="../program-python/Unit-3-运算符和语句.html">
+            
+                <a href="../program-python/Unit-3-运算符和语句.html">
+            
+                    
+                    Unit-3-运算符和语句
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="../program-python/Unit-4-常用系统类.html">
+            
+                <a href="../program-python/Unit-4-常用系统类.html">
+            
+                    
+                    Unit-4-常用系统类
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.5" data-path="../program-python/Unit-5-面向对象.html">
+            
+                <a href="../program-python/Unit-5-面向对象.html">
+            
+                    
+                    Unit-5-面向对象
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6" data-path="../program-python/Unit-6-正则表达式.html">
+            
+                <a href="../program-python/Unit-6-正则表达式.html">
+            
+                    
+                    Unit-6-正则表达式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.7" data-path="../program-python/django-1-配置环境.html">
+            
+                <a href="../program-python/django-1-配置环境.html">
+            
+                    
+                    django-1-配置环境
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../program-web/">
+            
+                <a href="../program-web/">
+            
+                    
+                    Web
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../tools/">
+            
+                <a href="../tools/">
+            
+                    
+                    Tools
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../tools/jetbrains-register.html">
+            
+                <a href="../tools/jetbrains-register.html">
+            
+                    
+                    Jetbrains破解合集
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="../tools/theme-dracula.html">
+            
+                <a href="../tools/theme-dracula.html">
+            
+                    
+                    Dracula样式合集
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >UI-Android全屏中的刘海屏</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-anchor"></i><ul><li><span class="title-icon "></span><a href="#android-&#x4E2D;&#x7684;&#x5218;&#x6D77;&#x5C4F;&#x9002;&#x914D;"><b></b>Android &#x4E2D;&#x7684;&#x5218;&#x6D77;&#x5C4F;&#x9002;&#x914D;</a></li><ul><li><span class="title-icon "></span><a href="#&#x4EC0;&#x4E48;&#x662F;&#x5218;&#x6D77;&#x5C4F;&#xFF1F;"><b></b>&#x4EC0;&#x4E48;&#x662F;&#x5218;&#x6D77;&#x5C4F;&#xFF1F;</a></li><li><span class="title-icon "></span><a href="#&#x51FA;&#x73B0;&#x5728;&#x54EA;&#x4E9B;&#x7248;&#x672C;&#x548C;&#x8BBE;&#x5907;&#x5462;&#xFF1F;"><b></b>&#x51FA;&#x73B0;&#x5728;&#x54EA;&#x4E9B;&#x7248;&#x672C;&#x548C;&#x8BBE;&#x5907;&#x5462;&#xFF1F;</a></li><li><span class="title-icon "></span><a href="#&#x4EC0;&#x4E48;&#x65F6;&#x5019;&#x505A;&#x5218;&#x6D77;&#x5C4F;&#x517C;&#x5BB9;&#x5462;&#xFF1F;"><b></b>&#x4EC0;&#x4E48;&#x65F6;&#x5019;&#x505A;&#x5218;&#x6D77;&#x5C4F;&#x517C;&#x5BB9;&#x5462;&#xFF1F;</a></li><li><span class="title-icon "></span><a href="#&#x8BBE;&#x7F6E;&#x4E4B;&#x524D;&#x5168;&#x5C4F;&#x7684;&#x9875;&#x9762;&#x80FD;&#x591F;&#x5728;&#x5218;&#x6D77;&#x5C4F;&#x4E0A;&#x4E5F;&#x5168;&#x5C4F;-&#x5173;&#x952E;&#x5185;&#x5BB9;"><b></b>&#x8BBE;&#x7F6E;&#x4E4B;&#x524D;&#x5168;&#x5C4F;&#x7684;&#x9875;&#x9762;&#x80FD;&#x591F;&#x5728;&#x5218;&#x6D77;&#x5C4F;&#x4E0A;&#x4E5F;&#x5168;&#x5C4F;-&#x5173;&#x952E;&#x5185;&#x5BB9;</a></li><li><span class="title-icon "></span><a href="#&#x5404;&#x4E2A;&#x7248;&#x672C;&#x8BBE;&#x7F6E;&#x4EE3;&#x7801;"><b></b>&#x5404;&#x4E2A;&#x7248;&#x672C;&#x8BBE;&#x7F6E;&#x4EE3;&#x7801;</a></li><ul><li><span class="title-icon "></span><a href="#goggle"><b></b>Goggle:</a></li><li><span class="title-icon "></span><a href="#&#x534E;&#x4E3A;"><b></b>&#x534E;&#x4E3A;</a></li></ul><li><span class="title-icon "></span><a href="#&#x5982;&#x4F55;&#x505A;&#x517C;&#x5BB9;---&#x5B98;&#x65B9;&#x7ED9;&#x51FA;&#x7684;&#x6587;&#x6863;"><b></b>&#x5982;&#x4F55;&#x505A;&#x517C;&#x5BB9; - &#x5B98;&#x65B9;&#x7ED9;&#x51FA;&#x7684;&#x6587;&#x6863;</a></li><li><span class="title-icon "></span><a href="#&#x5218;&#x6D77;&#x673A;&#x578B;&#x8BE6;&#x60C5;"><b></b>&#x5218;&#x6D77;&#x673A;&#x578B;&#x8BE6;&#x60C5;</a></li><ul><li><span class="title-icon "></span><a href="#&#x5C0F;&#x7C73;&#x5218;&#x6D77;&#x5C4F;&#x8BBE;&#x5907;"><b></b>&#x5C0F;&#x7C73;&#x5218;&#x6D77;&#x5C4F;&#x8BBE;&#x5907;</a></li><li><span class="title-icon "></span><a href="#&#x534E;&#x4E3A;&#x5218;&#x6D77;&#x5C4F;&#x8BBE;&#x5907;"><b></b>&#x534E;&#x4E3A;&#x5218;&#x6D77;&#x5C4F;&#x8BBE;&#x5907;</a></li></ul><li><span class="title-icon "></span><a href="#&#x9644;&#x4E0A;&#x4E00;&#x5F20;&#x601D;&#x7EF4;&#x5BFC;&#x56FE;"><b></b>&#x9644;&#x4E0A;&#x4E00;&#x5F20;&#x601D;&#x7EF4;&#x5BFC;&#x56FE;</a></li></ul></ul></div><a href="#android-&#x4E2D;&#x7684;&#x5218;&#x6D77;&#x5C4F;&#x9002;&#x914D;" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><!-- toc -->
+<ul>
+<li><a href="#android-%E4%B8%AD%E7%9A%84%E5%88%98%E6%B5%B7%E5%B1%8F%E9%80%82%E9%85%8D">Android &#x4E2D;&#x7684;&#x5218;&#x6D77;&#x5C4F;&#x9002;&#x914D;</a><ul>
+<li><a href="#%E4%BB%80%E4%B9%88%E6%98%AF%E5%88%98%E6%B5%B7%E5%B1%8F">&#x4EC0;&#x4E48;&#x662F;&#x5218;&#x6D77;&#x5C4F;&#xFF1F;</a></li>
+<li><a href="#%E5%87%BA%E7%8E%B0%E5%9C%A8%E5%93%AA%E4%BA%9B%E7%89%88%E6%9C%AC%E5%92%8C%E8%AE%BE%E5%A4%87%E5%91%A2">&#x51FA;&#x73B0;&#x5728;&#x54EA;&#x4E9B;&#x7248;&#x672C;&#x548C;&#x8BBE;&#x5907;&#x5462;&#xFF1F;</a></li>
+<li><a href="#%E4%BB%80%E4%B9%88%E6%97%B6%E5%80%99%E5%81%9A%E5%88%98%E6%B5%B7%E5%B1%8F%E5%85%BC%E5%AE%B9%E5%91%A2">&#x4EC0;&#x4E48;&#x65F6;&#x5019;&#x505A;&#x5218;&#x6D77;&#x5C4F;&#x517C;&#x5BB9;&#x5462;&#xFF1F;</a></li>
+<li><a href="#%E8%AE%BE%E7%BD%AE%E4%B9%8B%E5%89%8D%E5%85%A8%E5%B1%8F%E7%9A%84%E9%A1%B5%E9%9D%A2%E8%83%BD%E5%A4%9F%E5%9C%A8%E5%88%98%E6%B5%B7%E5%B1%8F%E4%B8%8A%E4%B9%9F%E5%85%A8%E5%B1%8F-%E5%85%B3%E9%94%AE%E5%86%85%E5%AE%B9">&#x8BBE;&#x7F6E;&#x4E4B;&#x524D;&#x5168;&#x5C4F;&#x7684;&#x9875;&#x9762;&#x80FD;&#x591F;&#x5728;&#x5218;&#x6D77;&#x5C4F;&#x4E0A;&#x4E5F;&#x5168;&#x5C4F;-&#x5173;&#x952E;&#x5185;&#x5BB9;</a></li>
+<li><a href="#%E5%90%84%E4%B8%AA%E7%89%88%E6%9C%AC%E8%AE%BE%E7%BD%AE%E4%BB%A3%E7%A0%81">&#x5404;&#x4E2A;&#x7248;&#x672C;&#x8BBE;&#x7F6E;&#x4EE3;&#x7801;</a><ul>
+<li><a href="#goggle">Goggle:</a></li>
+<li><a href="#%E5%8D%8E%E4%B8%BA">&#x534E;&#x4E3A;</a></li>
+</ul>
+</li>
+<li><a href="#%E5%A6%82%E4%BD%95%E5%81%9A%E5%85%BC%E5%AE%B9---%E5%AE%98%E6%96%B9%E7%BB%99%E5%87%BA%E7%9A%84%E6%96%87%E6%A1%A3">&#x5982;&#x4F55;&#x505A;&#x517C;&#x5BB9; - &#x5B98;&#x65B9;&#x7ED9;&#x51FA;&#x7684;&#x6587;&#x6863;</a></li>
+<li><a href="#%E5%88%98%E6%B5%B7%E6%9C%BA%E5%9E%8B%E8%AF%A6%E6%83%85">&#x5218;&#x6D77;&#x673A;&#x578B;&#x8BE6;&#x60C5;</a><ul>
+<li><a href="#%E5%B0%8F%E7%B1%B3%E5%88%98%E6%B5%B7%E5%B1%8F%E8%AE%BE%E5%A4%87">&#x5C0F;&#x7C73;&#x5218;&#x6D77;&#x5C4F;&#x8BBE;&#x5907;</a></li>
+<li><a href="#%E5%8D%8E%E4%B8%BA%E5%88%98%E6%B5%B7%E5%B1%8F%E8%AE%BE%E5%A4%87">&#x534E;&#x4E3A;&#x5218;&#x6D77;&#x5C4F;&#x8BBE;&#x5907;</a></li>
+</ul>
+</li>
+<li><a href="#%E9%99%84%E4%B8%8A%E4%B8%80%E5%BC%A0%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE">&#x9644;&#x4E0A;&#x4E00;&#x5F20;&#x601D;&#x7EF4;&#x5BFC;&#x56FE;</a></li>
+</ul>
+</li>
+</ul>
+<!-- tocstop -->
+<h1 id="android-&#x4E2D;&#x7684;&#x5218;&#x6D77;&#x5C4F;&#x9002;&#x914D;"><a name="android-&#x4E2D;&#x7684;&#x5218;&#x6D77;&#x5C4F;&#x9002;&#x914D;" class="anchor-navigation-ex-anchor" href="#android-&#x4E2D;&#x7684;&#x5218;&#x6D77;&#x5C4F;&#x9002;&#x914D;"><i class="fa fa-link" aria-hidden="true"></i></a>Android &#x4E2D;&#x7684;&#x5218;&#x6D77;&#x5C4F;&#x9002;&#x914D;</h1>
+<h2 id="&#x4EC0;&#x4E48;&#x662F;&#x5218;&#x6D77;&#x5C4F;&#xFF1F;"><a name="&#x4EC0;&#x4E48;&#x662F;&#x5218;&#x6D77;&#x5C4F;&#xFF1F;" class="anchor-navigation-ex-anchor" href="#&#x4EC0;&#x4E48;&#x662F;&#x5218;&#x6D77;&#x5C4F;&#xFF1F;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x4EC0;&#x4E48;&#x662F;&#x5218;&#x6D77;&#x5C4F;&#xFF1F;</h2>
+<p>&#x5934;&#x90E8;&#x6709;&#x9ED1;&#x6761; &#x5728;&#x4E2D;&#x95F4;&#x4E2D;&#x95F4; &#x6765;&#x4E2A;&#x56FE;&#x611F;&#x53D7;&#x4E0B;<br>
+<img src="../assert/img/android-full/notch_exampe_1.png" alt="&#x5218;&#x6D77;&#x56FE;"></p>
+<h2 id="&#x51FA;&#x73B0;&#x5728;&#x54EA;&#x4E9B;&#x7248;&#x672C;&#x548C;&#x8BBE;&#x5907;&#x5462;&#xFF1F;"><a name="&#x51FA;&#x73B0;&#x5728;&#x54EA;&#x4E9B;&#x7248;&#x672C;&#x548C;&#x8BBE;&#x5907;&#x5462;&#xFF1F;" class="anchor-navigation-ex-anchor" href="#&#x51FA;&#x73B0;&#x5728;&#x54EA;&#x4E9B;&#x7248;&#x672C;&#x548C;&#x8BBE;&#x5907;&#x5462;&#xFF1F;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x51FA;&#x73B0;&#x5728;&#x54EA;&#x4E9B;&#x7248;&#x672C;&#x548C;&#x8BBE;&#x5907;&#x5462;&#xFF1F;</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Title</th>
+<th style="text-align:left">Descibe</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">&#x7248;&#x672C;&#xFF1A;</td>
+<td style="text-align:left">Android O (Android8.0) &#x53CA;&#x4EE5;&#x4E0A;</td>
+</tr>
+<tr>
+<td style="text-align:left">&#x5E38;&#x89C1;&#x5382;&#x5546;&#xFF1A;</td>
+<td style="text-align:left">&#x534E;&#x4E3A;&#x3001;&#x5C0F;&#x7C73;&#x3001;OPPO&#x3001;VIVO</td>
+</tr>
+<tr>
+<td style="text-align:left">&#x5C0F;&#x7C73;&#x5E38;&#x89C1;&#x8BBE;&#x5907;&#x4FE1;&#x606F;</td>
+<td style="text-align:left"><a href="#notch_device_miui">&#x67E5;&#x770B;&#x8BE6;&#x60C5;</a></td>
+</tr>
+<tr>
+<td style="text-align:left">&#x534E;&#x4E3A;&#x5E38;&#x89C1;&#x8BBE;&#x5907;&#x4FE1;&#x606F;</td>
+<td style="text-align:left"><a href="#notch_device_huawei">&#x67E5;&#x770B;&#x8BE6;&#x60C5;</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="&#x4EC0;&#x4E48;&#x65F6;&#x5019;&#x505A;&#x5218;&#x6D77;&#x5C4F;&#x517C;&#x5BB9;&#x5462;&#xFF1F;"><a name="&#x4EC0;&#x4E48;&#x65F6;&#x5019;&#x505A;&#x5218;&#x6D77;&#x5C4F;&#x517C;&#x5BB9;&#x5462;&#xFF1F;" class="anchor-navigation-ex-anchor" href="#&#x4EC0;&#x4E48;&#x65F6;&#x5019;&#x505A;&#x5218;&#x6D77;&#x5C4F;&#x517C;&#x5BB9;&#x5462;&#xFF1F;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x4EC0;&#x4E48;&#x65F6;&#x5019;&#x505A;&#x5218;&#x6D77;&#x5C4F;&#x517C;&#x5BB9;&#x5462;&#xFF1F;</h2>
+<ol>
+<li><p>&#x5E0C;&#x671B;&#x5728;&#x5218;&#x6D77;&#x5C4F;&#x7684;&#x5168;&#x5C4F;&#xFF0C;&#x5E76;&#x4E14;&#x5168;&#x90E8;&#x586B;&#x5145;&#x5230;&#x5218;&#x6D77;&#x533A;, &#x6709;&#x90E8;&#x5206;&#x5168;&#x5C4F;&#x5C5E;&#x6027;&#x8BBE;&#x7F6E;&#x7684;&#x65F6;&#x5019;&#x662F;&#x4E0D;&#x4F1A;&#x586B;&#x5145;&#x5230;&#x5218;&#x6D77;&#x533A;&#x7684;&#x3002;&#x7279;&#x522B;&#x662F;&#x6A2A;&#x5C4F;&#x7684;&#x65F6;&#x5019;&#x3002;</p>
+</li>
+<li><p>&#x9875;&#x9762;&#x586B;&#x5145;&#x5230;&#x5218;&#x6D77;&#x533A;&#x4E0D;&#x906E;&#x6321;&#x64CD;&#x4F5C;&#x6309;&#x94AE;</p>
+</li>
+</ol>
+<p>&#x5148;&#x6765;&#x770B;&#x4E24;&#x5F20;&#x56FE;<br></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">&#x7AD6;&#x5C4F;</th>
+<th style="text-align:left">&#x6A2A;&#x5C4F;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><img src="../assert/img/android-full/notch_example_2.gif" alt="&#x5218;&#x6D77;&#x56FE;"></td>
+<td style="text-align:left"><img src="../assert/img/android-full/notch_example_3.gif" alt="&#x5218;&#x6D77;&#x56FE;"><br> &#x53F3;&#x8FB9;&#x4E00;&#x76F4;&#x90FD;&#x662F;&#x9ED1;&#x8272;&#x533A;&#x57DF;&#xFF0C;&#x6240;&#x4EE5;&#x4E0D;&#x7BA1;&#x600E;&#x4E48;&#x8BBE;&#x7F6E;&#x90FD;&#x65E0;&#x6CD5;&#x5728;&#x6A2A;&#x5C4F;&#x4E0B;&#x51FA;&#x73B0;&#x5168;&#x5C4F;&#x6548;&#x679C;&#x3002;</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">&#x9ED8;&#x8BA4;&#x60C5;&#x51B5;&#x4E0B;&#x53EA;&#x6709;<strong>&#x5168;&#x5C4F;&#x7684;&#x65F6;&#x5019;&#x663E;&#x793A;&#x4E86;&#x7CFB;&#x7EDF;&#x72B6;&#x6001;&#x680F;</strong>&#xFF0C;&#x624D;&#x4F1A;&#x586B;&#x5145;&#x5230;&#x5218;&#x6D77;&#x533A;&#xFF0C;&#x800C;&#x4E14;&#x53EA;&#x6709;&#x7AD6;&#x5C4F;&#xFF0C;&#x6A2A;&#x5C4F;&#x540E; &#x72B6;&#x6001;&#x680F;&#x548C;&#x4E0D;&#x5728;&#x5218;&#x6D77;&#x533A;&#x4E86;&#xFF0C;&#x6240;&#x4EE5;&#x65E0;&#x6CD5;&#x771F;&#x6B63;&#x7684;&#x5168;&#x5C4F;&#x3002;</td>
+</tr>
+</tbody>
+</table>
+<p>&#x6309;&#x94AE;&#x4E00;&#x5168;&#x5C4F;&#x4EE3;&#x7801;&#xFF1A;</p>
+<pre><code class="lang-java"><span class="hljs-function"><span class="hljs-keyword">private</span> fun <span class="hljs-title">setFullScreenWithAttribute</span><span class="hljs-params">(toFullScreen: Boolean)</span> </span>{
+    <span class="hljs-keyword">if</span> (toFullScreen) {
+        inFullScreen = <span class="hljs-keyword">true</span>
+        val lp = window.attributes
+        lp.flags = lp.flags or WindowManager.LayoutParams.FLAG_FULLSCREEN
+        window.attributes = lp
+    } <span class="hljs-keyword">else</span> {
+        inFullScreen = <span class="hljs-keyword">false</span>
+        val attr = window.attributes
+        attr.flags = attr.flags and WindowManager.LayoutParams.FLAG_FULLSCREEN.inv()
+        window.attributes = attr
+    }
+}
+</code></pre>
+<p>&#x6309;&#x94AE;&#x4E8C;&#x5168;&#x5C4F;&#x4EE3;&#x7801;&#xFF1A;</p>
+<pre><code class="lang-java"><span class="hljs-comment">// &#x7CFB;&#x7EDF;&#x72B6;&#x6001;&#x680F;&#x663E;&#x793A;&#x7684;&#x5168;&#x5C4F;</span>
+<span class="hljs-function"><span class="hljs-keyword">private</span> fun <span class="hljs-title">setFullScreenWithStatusBar</span><span class="hljs-params">()</span></span>{
+    inFullScreen = <span class="hljs-keyword">true</span>
+    var uiVisibility = window.decorView.systemUiVisibility
+    uiVisibility = uiVisibility.or(View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN)
+    window.decorView.systemUiVisibility = uiVisibility
+}
+</code></pre>
+<p>&#x6309;&#x94AE;&#x4E09;&#x5168;&#x5C4F;&#x4EE3;&#x7801;&#xFF1A;</p>
+<pre><code class="lang-java"><span class="hljs-function"><span class="hljs-keyword">private</span> fun <span class="hljs-title">setFullScreenWithStatusBarHideBar</span><span class="hljs-params">()</span></span>{
+    inFullScreen = <span class="hljs-keyword">true</span>
+    var uiVisibility = window.decorView.systemUiVisibility
+    uiVisibility = uiVisibility.or(View.SYSTEM_UI_FLAG_FULLSCREEN)
+    window.decorView.systemUiVisibility = uiVisibility
+}
+</code></pre>
+<h2 id="&#x8BBE;&#x7F6E;&#x4E4B;&#x524D;&#x5168;&#x5C4F;&#x7684;&#x9875;&#x9762;&#x80FD;&#x591F;&#x5728;&#x5218;&#x6D77;&#x5C4F;&#x4E0A;&#x4E5F;&#x5168;&#x5C4F;-&#x5173;&#x952E;&#x5185;&#x5BB9;"><a name="&#x8BBE;&#x7F6E;&#x4E4B;&#x524D;&#x5168;&#x5C4F;&#x7684;&#x9875;&#x9762;&#x80FD;&#x591F;&#x5728;&#x5218;&#x6D77;&#x5C4F;&#x4E0A;&#x4E5F;&#x5168;&#x5C4F;-&#x5173;&#x952E;&#x5185;&#x5BB9;" class="anchor-navigation-ex-anchor" href="#&#x8BBE;&#x7F6E;&#x4E4B;&#x524D;&#x5168;&#x5C4F;&#x7684;&#x9875;&#x9762;&#x80FD;&#x591F;&#x5728;&#x5218;&#x6D77;&#x5C4F;&#x4E0A;&#x4E5F;&#x5168;&#x5C4F;-&#x5173;&#x952E;&#x5185;&#x5BB9;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x8BBE;&#x7F6E;&#x4E4B;&#x524D;&#x5168;&#x5C4F;&#x7684;&#x9875;&#x9762;&#x80FD;&#x591F;&#x5728;&#x5218;&#x6D77;&#x5C4F;&#x4E0A;&#x4E5F;&#x5168;&#x5C4F;-&#x5173;&#x952E;&#x5185;&#x5BB9;</h2>
+<p>&#x65E0;&#x56FE;&#x65E0;&#x771F;&#x76F8;&#xFF0C;&#x5148;&#x770B;&#x4E00;&#x4E2A;&#x6548;&#x679C;&#x56FE; - &#x76F4;&#x63A5;&#x770B;&#x7AD6;&#x5C4F;&#xFF0C;&#x6A2A;&#x5C4F;&#x7684;&#x903B;&#x8F91;&#x4E00;&#x6837;</p>
+<p><img src="../assert/img/android-full/notch_example_4.gif" alt="&#x5218;&#x6D77;&#x5C4F;&#x5168;&#x5C4F;"></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Describe</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">1. &#x51FA;&#x73B0;&#x767D;&#x8FB9;&#x5C31;&#x662F;&#x6211;&#x4EEC;&#x7684;&#x9875;&#x9762;&#x5DF2;&#x7ECF;&#x53EF;&#x4EE5;&#x652F;&#x6301;&#x7ED8;&#x5236;&#x5230;&#x5218;&#x6D77;&#x533A;&#x4E86;&#xFF0C;<br> 2. &#x5982;&#x679C;&#x6CA1;&#x6709;&#x8BBE;&#x7F6E;&#x7684;&#x65F6;&#x9ED1;&#x8272;&#x7684;&#xFF0C;&#x4E3A;&#x4EC0;&#x4E48;&#x662F;&#x767D;&#x8272;&#x662F;&#x56E0;&#x4E3A;Activity&#x4E3B;&#x9898;&#x662F;&#x767D;&#x8272;&#xFF0C;&#x800C;&#x6CA1;&#x6709;&#x5904;&#x7406;&#x72B6;&#x6001;&#x680F;&#x6B8B;&#x7559;&#x533A;&#x57DF;&#xFF0C;&#x7B2C;&#x4E8C;&#x6BB5;&#x4EE3;&#x7801;&#x4E2D;&#x5C31;&#x53EF;&#x4EE5;&#x770B;&#x5230;&#x56FE;&#x7247;&#x586B;&#x6EE1;&#x4E86;</td>
+</tr>
+<tr>
+<td style="text-align:left">&#x9002;&#x914D;&#x6D41;&#x7A0B;&#x56FE;:<br><img src="../assert/img/android-full/notch_flow.png" alt="&#x5218;&#x6D77;&#x5C4F;&#x5168;&#x5C4F;"></td>
+</tr>
+</tbody>
+</table>
+<h2 id="&#x5404;&#x4E2A;&#x7248;&#x672C;&#x8BBE;&#x7F6E;&#x4EE3;&#x7801;"><a name="&#x5404;&#x4E2A;&#x7248;&#x672C;&#x8BBE;&#x7F6E;&#x4EE3;&#x7801;" class="anchor-navigation-ex-anchor" href="#&#x5404;&#x4E2A;&#x7248;&#x672C;&#x8BBE;&#x7F6E;&#x4EE3;&#x7801;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x5404;&#x4E2A;&#x7248;&#x672C;&#x8BBE;&#x7F6E;&#x4EE3;&#x7801;</h2>
+<blockquote>
+<p>&#x9879;&#x76EE;&#x4EE3;&#x7801;&#x53EF;&#x4EE5;&#x5728;&#x8FD9;&#x91CC;&#x627E;&#x5230; <br> <a href="https://github.com/pengqinping/project_android_as/tree/master/UI/fullscreen" target="_blank">https://github.com/pengqinping/project_android_as/tree/master/UI/fullscreen</a></p>
+</blockquote>
+<h3 id="goggle"><a name="goggle" class="anchor-navigation-ex-anchor" href="#goggle"><i class="fa fa-link" aria-hidden="true"></i></a>Goggle:</h3>
+<pre><code class="lang-kotlin"><span class="hljs-keyword">override</span> <span class="hljs-function"><span class="hljs-keyword">fun</span> <span class="hljs-title">hasNotchInScreen</span><span class="hljs-params">(window: <span class="hljs-type">Window</span>)</span>: <span class="hljs-keyword">Boolean</span> {</span>
+        <span class="hljs-variable"><span class="hljs-keyword">val</span> windowInsets</span> = window.decorView.rootWindowInsets ?: <span class="hljs-keyword">return</span> <span class="hljs-literal">false</span>
+
+        <span class="hljs-variable"><span class="hljs-keyword">val</span> displayCutout</span> = windowInsets.displayCutout
+        <span class="hljs-keyword">if</span> (displayCutout == <span class="hljs-literal">null</span> || displayCutout.boundingRects == <span class="hljs-literal">null</span>) {
+            <span class="hljs-keyword">return</span> <span class="hljs-literal">false</span>
+        }
+        <span class="hljs-keyword">return</span> <span class="hljs-literal">true</span>
+    }
+
+    <span class="hljs-keyword">override</span> <span class="hljs-function"><span class="hljs-keyword">fun</span> <span class="hljs-title">setFullScreenIgnoreNotch</span><span class="hljs-params">(window: <span class="hljs-type">Window</span>)</span> {</span>
+        <span class="hljs-variable"><span class="hljs-keyword">val</span> attributes</span> = window.attributes
+        attributes.layoutInDisplayCutoutMode = WindowManager.LayoutParams.LAYOUT_IN_DISPLAY_CUTOUT_MODE_SHORT_EDGES
+        window.attributes = attributes
+    }
+
+    <span class="hljs-keyword">override</span> <span class="hljs-function"><span class="hljs-keyword">fun</span> <span class="hljs-title">exitFullScreenInNotch</span><span class="hljs-params">(window: <span class="hljs-type">Window</span>)</span> {</span>
+        <span class="hljs-variable"><span class="hljs-keyword">val</span> attributes</span> = window.attributes
+        attributes.layoutInDisplayCutoutMode = WindowManager.LayoutParams.LAYOUT_IN_DISPLAY_CUTOUT_MODE_NEVER
+        window.attributes = attributes
+    }
+</code></pre>
+<h3 id="&#x534E;&#x4E3A;"><a name="&#x534E;&#x4E3A;" class="anchor-navigation-ex-anchor" href="#&#x534E;&#x4E3A;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x534E;&#x4E3A;</h3>
+<h2 id="&#x5982;&#x4F55;&#x505A;&#x517C;&#x5BB9;---&#x5B98;&#x65B9;&#x7ED9;&#x51FA;&#x7684;&#x6587;&#x6863;"><a name="&#x5982;&#x4F55;&#x505A;&#x517C;&#x5BB9;---&#x5B98;&#x65B9;&#x7ED9;&#x51FA;&#x7684;&#x6587;&#x6863;" class="anchor-navigation-ex-anchor" href="#&#x5982;&#x4F55;&#x505A;&#x517C;&#x5BB9;---&#x5B98;&#x65B9;&#x7ED9;&#x51FA;&#x7684;&#x6587;&#x6863;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x5982;&#x4F55;&#x505A;&#x517C;&#x5BB9; - &#x5B98;&#x65B9;&#x7ED9;&#x51FA;&#x7684;&#x6587;&#x6863;</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Describe</th>
+<th style="text-align:left">URL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">&#x534E;&#x4E3A;&#x5F00;&#x53D1;&#x5E73;&#x53F0;</td>
+<td style="text-align:left"><a href="https://developer.huawei.com/consumer/cn/devservice/doc/50114" target="_blank">https://developer.huawei.com/consumer/cn/devservice/doc/50114</a></td>
+</tr>
+<tr>
+<td style="text-align:left">&#x5C0F;&#x7C73;&#x5F00;&#x53D1;&#x5E73;&#x53F0;</td>
+<td style="text-align:left"><a href="https://dev.mi.com/console/doc/detail?pId=1293" target="_blank">https://dev.mi.com/console/doc/detail?pId=1293</a></td>
+</tr>
+<tr>
+<td style="text-align:left">Google&#x5B98;&#x65B9;</td>
+<td style="text-align:left"><a href="https://developer.android.com/preview/features#cutout" target="_blank">https://developer.android.com/preview/features#cutout</a></td>
+</tr>
+<tr>
+<td style="text-align:left">VIVO</td>
+<td style="text-align:left"><a href="https://dev.vivo.com.cn/documentCenter/doc/103" target="_blank">https://dev.vivo.com.cn/documentCenter/doc/103</a><br> &#x9700;&#x8981;&#x81EA;&#x5DF1;&#x627E;&#x5230; &#x83DC;&#x5355;/vivo&#x624B;&#x673A;&#x9002;&#x914D;&#x6307;&#x5357;/&#x5F02;&#x5F62;&#x5C4F;&#x5E94;&#x7528;&#x9002;&#x914D;&#x6307;&#x5357;</td>
+</tr>
+<tr>
+<td style="text-align:left">OPPO</td>
+<td style="text-align:left"><a href="https://open.oppomobile.com/wiki/doc#id=10293" target="_blank">https://open.oppomobile.com/wiki/doc#id=10293</a> <br>&#x9700;&#x8981;&#x6CE8;&#x518C;&#x624D;&#x80FD;&#x770B;&#xFF0C;&#x6BD4;&#x8F83;&#x6076;&#x5FC3;</td>
+</tr>
+<tr>
+<td style="text-align:left">CSDN &#x6BD4;&#x8F83;&#x5168;&#x9762;&#x7684;&#x535A;&#x4E3B;</td>
+<td style="text-align:left"><a href="https://blog.csdn.net/DJY1992/article/details/80689632" target="_blank">https://blog.csdn.net/DJY1992/article/details/80689632</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="&#x5218;&#x6D77;&#x673A;&#x578B;&#x8BE6;&#x60C5;"><a name="&#x5218;&#x6D77;&#x673A;&#x578B;&#x8BE6;&#x60C5;" class="anchor-navigation-ex-anchor" href="#&#x5218;&#x6D77;&#x673A;&#x578B;&#x8BE6;&#x60C5;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x5218;&#x6D77;&#x673A;&#x578B;&#x8BE6;&#x60C5;</h2>
+<h3 id="&#x5C0F;&#x7C73;&#x5218;&#x6D77;&#x5C4F;&#x8BBE;&#x5907;"><a name="&#x5C0F;&#x7C73;&#x5218;&#x6D77;&#x5C4F;&#x8BBE;&#x5907;" class="anchor-navigation-ex-anchor" href="#&#x5C0F;&#x7C73;&#x5218;&#x6D77;&#x5C4F;&#x8BBE;&#x5907;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x5C0F;&#x7C73;&#x5218;&#x6D77;&#x5C4F;&#x8BBE;&#x5907;</h3>
+<div id="notch_device_miui"></div>
+
+<p><a href="https://dev.mi.com/console/doc/detail?pId=1293" target="_blank">&#x70B9;&#x6211;&#x53BB;&#x5B98;&#x7F51;</a></p>
+<p><img src="../assert/img/android-full/notch_device_miui.png" alt="&#x5C0F;&#x7C73;&#x5168;&#x90E8;&#x673A;&#x578B;"></p>
+<h3 id="&#x534E;&#x4E3A;&#x5218;&#x6D77;&#x5C4F;&#x8BBE;&#x5907;"><a name="&#x534E;&#x4E3A;&#x5218;&#x6D77;&#x5C4F;&#x8BBE;&#x5907;" class="anchor-navigation-ex-anchor" href="#&#x534E;&#x4E3A;&#x5218;&#x6D77;&#x5C4F;&#x8BBE;&#x5907;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x534E;&#x4E3A;&#x5218;&#x6D77;&#x5C4F;&#x8BBE;&#x5907;</h3>
+<div id="notch_device_huawei"></div>
+
+<p><a href="https://developer.huawei.com/consumer/cn/devservice/doc/50114" target="_blank">&#x70B9;&#x6211;&#x53BB;&#x5B98;&#x7F51;</a>
+<img src="../assert/img/android-full/notch_device_huawei.png" alt="&#x5C0F;&#x7C73;&#x5168;&#x90E8;&#x673A;&#x578B;"></p>
+<h2 id="&#x9644;&#x4E0A;&#x4E00;&#x5F20;&#x601D;&#x7EF4;&#x5BFC;&#x56FE;"><a name="&#x9644;&#x4E0A;&#x4E00;&#x5F20;&#x601D;&#x7EF4;&#x5BFC;&#x56FE;" class="anchor-navigation-ex-anchor" href="#&#x9644;&#x4E0A;&#x4E00;&#x5F20;&#x601D;&#x7EF4;&#x5BFC;&#x56FE;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x9644;&#x4E0A;&#x4E00;&#x5F20;&#x601D;&#x7EF4;&#x5BFC;&#x56FE;</h2>
+<p><img src="../assert/img/android-full/notch_example_mind.png" alt="&#x601D;&#x7EF4;&#x5BFC;&#x56FE;"></p>
+<!--tocend --> 
+<footer class="page-footer"><span class="copyright">pengqinping all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">&#x6700;&#x540E;&#x66F4;&#x65B0;&#x65F6;&#x95F4;&#xFF1A;
+2019-06-18 06:48:59
+</span></footer> <link rel="stylesheet" type="text/css" href="https://storage.googleapis.com/app.klipse.tech/css/codemirror.css"> <script>     window.klipse_settings = {         selector: ".language-klipse, .lang-eval-clojure",         selector_eval_js: ".lang-eval-js",         selector_eval_python_client: ".lang-eval-python",         selector_eval_php: ".lang-eval-php",         selector_eval_scheme: ".lang-eval-scheme",         selector_eval_ruby: ".lang-eval-ruby",         selector_reagent: ".lang-reagent",        selector_google_charts: ".lang-google-chart",        selector_es2017: ".lang-eval-es2017",        selector_jsx: ".lang-eval-jsx",        selector_transpile_jsx: ".lang-transpile-jsx",        selector_render_jsx: ".lang-render-jsx",        selector_react: ".lang-react",        selector_eval_markdown: ".lang-render-markdown",        selector_eval_lambdaway: ".lang-render-lambdaway",        selector_eval_cpp: ".lang-eval-cpp",        selector_eval_html: ".lang-render-html",        selector_sql: ".lang-eval-sql",        selector_brainfuck: "lang-eval-brainfuck",        selector_js: ".lang-transpile-cljs"    }; </script> <script src="https://storage.googleapis.com/app.klipse.tech/plugin/js/klipse_plugin.js"></script>
+<script>console.log("plugin-popup....");document.onclick = function(e){ e.target.tagName === "IMG" && window.open(e.target.src,e.target.src)}</script><style>img{cursor:pointer}</style>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="UI-FullScreen.html" class="navigation navigation-prev " aria-label="Previous page: UI-Android项目中的全屏">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../program-python/" class="navigation navigation-next " aria-label="Next page: Python">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"UI-Android全屏中的刘海屏","level":"1.4.3","depth":2,"next":{"title":"Python","level":"1.5","depth":1,"path":"program-python/README.md","ref":"program-python/README.md","articles":[{"title":"Unit-1-认识Python","level":"1.5.1","depth":2,"path":"program-python/Unit-1-认识Python.md","ref":"program-python/Unit-1-认识Python.md","articles":[]},{"title":"Unit-2-数据类型","level":"1.5.2","depth":2,"path":"program-python/Unit-2-数据类型.md","ref":"program-python/Unit-2-数据类型.md","articles":[]},{"title":"Unit-3-运算符和语句","level":"1.5.3","depth":2,"path":"program-python/Unit-3-运算符和语句.md","ref":"program-python/Unit-3-运算符和语句.md","articles":[]},{"title":"Unit-4-常用系统类","level":"1.5.4","depth":2,"path":"program-python/Unit-4-常用系统类.md","ref":"program-python/Unit-4-常用系统类.md","articles":[]},{"title":"Unit-5-面向对象","level":"1.5.5","depth":2,"path":"program-python/Unit-5-面向对象.md","ref":"program-python/Unit-5-面向对象.md","articles":[]},{"title":"Unit-6-正则表达式","level":"1.5.6","depth":2,"path":"program-python/Unit-6-正则表达式.md","ref":"program-python/Unit-6-正则表达式.md","articles":[]},{"title":"django-1-配置环境","level":"1.5.7","depth":2,"path":"program-python/django-1-配置环境.md","ref":"program-python/django-1-配置环境.md","articles":[]}]},"previous":{"title":"UI-Android项目中的全屏","level":"1.4.2","depth":2,"path":"program-android/UI-FullScreen.md","ref":"program-android/UI-FullScreen.md","articles":[]},"dir":"ltr"},"config":{"plugins":["code","-search","-lunr","-share","chapter-fold","tbfed-pagefooter","search-pro","fontsettings","simple-page-toc","links","sharing-plus","ancre-navigation","klipse","pageview-count","popup","livereload"],"styles":{"website":"assert/style/website.css","ebook":"assert/style/ebook.css","pdf":"assert/style/pdf.css","mobi":"assert/style/mobi.css","epub":"assert/style/epub.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"pengqinping","modify_label":"最后更新时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"chapter-fold":{},"livereload":{},"simple-page-toc":{"maxDepth":3,"skipFirstH1":true},"search-pro":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"popup":{},"code":{"copyButtons":true},"fontsettings":{"family":"serif","size":12,"theme":"white"},"highlight":{},"pageview-count":{},"ancre-navigation":{"showLevel":true,"associatedWithSummary":true,"mode":"float","printLog":false,"multipleH1":true,"float":{"showLevelIcon":false,"level1Icon":"","level2Icon":"","level3Icon":""},"pageTop":{"showLevelIcon":false,"level1Icon":"","level2Icon":"","level3Icon":""}},"links":{},"klipse":{"myConfigKey":"it's the default value"},"sharing":{"qq":true,"all":["douban","weibo","qzone","weibo","instapaper"],"douban":true,"facebook":false,"weibo":true,"instapaper":false,"twitter":false,"vk":false,"pocket":false,"google":false,"qzone":true},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Knowledge","language":"zh-hans","links":{"gitbook":false,"sidebar":{"Home":"http://pengqinping.coding.me/ABlog/"}},"gitbook":"*"},"file":{"path":"program-android/UI-NotchScreen.md","mtime":"2019-06-17T22:48:59.831Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-06-23T04:58:06.177Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-code/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-chapter-fold/chapter-fold.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-pro/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-links/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing-plus/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-pageview-count/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+
+    </body>
+</html>
+
