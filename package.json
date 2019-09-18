@@ -26,7 +26,7 @@
     "git_comment": "auto commit log"
   },
   "scripts": {
-    "start": "gitbook serve --port 4002",
+    "start": "gitbook serve  --lrport 35730 --port 4002",
     "predeploy": "echo \"======= Begin deploy =======\" ",
     "deploy": "gitbook build && git subtree push --prefix=_book origin coding-pages",
     "postdeoply": "echo \"======= End deploy =======\" ",
