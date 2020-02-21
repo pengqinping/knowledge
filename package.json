@@ -1,0 +1,45 @@
+{
+  "name": "knowledge",
+  "version": "1.0.0",
+  "description": "记录学习过程中的知识点，主要记录开发技术相关.",
+  "main": "index.js",
+  "dependencies": {
+    "g": "^2.0.1",
+    "gitbook-plugin-ancre-navigation": "^1.0.0",
+    "gitbook-plugin-back-to-top-button": "^0.1.4",
+    "gitbook-plugin-chapter-fold": "^0.0.4",
+    "gitbook-plugin-code": "^0.1.0",
+    "gitbook-plugin-fontsettings": "^2.0.0",
+    "gitbook-plugin-klipse": "^1.2.0",
+    "gitbook-plugin-links": "^3.0.1",
+    "gitbook-plugin-pageview-count": "^1.0.1",
+    "gitbook-plugin-popup": "^0.0.1",
+    "gitbook-plugin-search-pro": "^2.0.2",
+    "gitbook-plugin-sharing-plus": "^0.0.2",
+    "gitbook-plugin-simple-page-toc": "^0.1.2",
+    "gitbook-plugin-sitemap": "^1.2.0",
+    "gitbook-plugin-summary": "^1.0.0",
+    "gitbook-plugin-tbfed-pagefooter": "^0.0.1"
+  },
+  "devDependencies": {},
+  "config": {
+    "git_comment": "auto commit log"
+  },
+  "scripts": {
+    "start": "gitbook serve  --lrport 35730 --port 4002",
+    "predeploy": "echo \"======= Begin deploy =======\" ",
+    "deploy": "gitbook build && git subtree push --prefix=_book origin coding-pages",
+    "postdeoply": "echo \"======= End deploy =======\" ",
+    "pdf": "gitbook pdf ./ ./knowledge.pdf",
+    "epub": "gitbook epub ./ ./knowledge.epub",
+    "prepush": "echo \"======= Begin Auto push =======\" ",
+    "push": "git status && git add . && read -p \"please input commit info:\" commitInfo && git commit -m \"$commitInfo\" && git pull && git push",
+    "postpush": "echo \"======= End Auto push =======\" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.dev.tencent.com/pengqinping/knowledge.git"
+  },
+  "author": "Royal",
+  "license": "ISC"
+}
